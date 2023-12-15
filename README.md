@@ -1,1 +1,1 @@
-Hello there, My name is Dat Tran. This is my github blog 2
+Hello there, My name is Dat Tran. This is my github blog
