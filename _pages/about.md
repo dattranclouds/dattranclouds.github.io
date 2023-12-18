@@ -17,7 +17,7 @@ Hello! I'm **Dat Tran**, a Solution Architect with over 8 years of experience in
 
 As a Java Full-Stack and Mobile Engineer, I've had the opportunity to lead teams and work on a variety of projects. My expertise extends to cloud technology, where I've been able to leverage my skills as a Solution Architect.
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+{% include gallery id="layouts_gallery" caption="Cloud Technology and FullStack Developer" %}
 
 This blog is my platform for marketing myself and sharing my knowledge with anyone interested in technology. Whether you're a fellow professional in the IT industry or a curious learner, I hope you'll find something of value here.
 
