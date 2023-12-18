@@ -1,27 +1,31 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Tech-savvy guy"
 layouts_gallery:
-  - url: /assets/images3/mm-layout-splash.png
-    image_path: /assets/images3/mm-layout-splash.png
+  - url: /assets/images/CloudOpps.png
+    image_path: /assets/images/CloudOpps.png
     alt: "splash layout example"
-  - url: /assets/images3/mm-layout-single-meta.png
-    image_path: /assets/images3/mm-layout-single-meta.png
+  - url: /assets/images/Fullstack.png
+    image_path: /assets/images/Fullstack.png
     alt: "single layout with comments and related posts"
-  - url: /assets/images3/mm-layout-archive.png
-    image_path: /assets/images3/mm-layout-archive.png
-    alt: "archive layout example"
 last_modified_at: 2022-05-27T11:59:26-04:00
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+Hello! I'm **Dat Tran**, a Solution Architect with over 8 years of experience in the IT industry. I'm a technology enthusiast at heart, and I believe that technology serves as nourishment for the intellect. I completed my Bachelor's degree at the Industrial University of Ho Chi Minh City, and since then, I've been immersing myself in the world of technology.
 
+As a Java Full-Stack and Mobile Engineer, I've had the opportunity to lead teams and work on a variety of projects. My expertise extends to cloud technology, where I've been able to leverage my skills as a Solution Architect.
 
 {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+This blog is my platform for marketing myself and sharing my knowledge with anyone interested in technology. Whether you're a fellow professional in the IT industry or a curious learner, I hope you'll find something of value here.
+
+When I'm not immersed in technology, you can find me indulging in my hobbies. I love playing football, traveling to new places, reading a good book, and enjoying music. My passion for technology and technical aspects of life drives me to continuously learn and grow.
+
+If you'd like to get in touch, feel free to reach out to me at [ttdat194@gmail.com](mailto:ttdat194@gmail.com) or give me a call at (+84) 389304752.
+
+Thank you for visiting my blog. I look forward to sharing my journey with you!
 
 ## Notable Features
 

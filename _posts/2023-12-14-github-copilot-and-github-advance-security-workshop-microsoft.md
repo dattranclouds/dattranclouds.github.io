@@ -3,9 +3,11 @@ title:  "Workshop Github Copilot and Github Advance Security"
 header:
   teaser: "/assets/images3/500x300.png"
 categories: 
-  - Jekyll
+  - Workshop
 tags:
-  - update
+  - Microsoft Workshop
+  - Github Copilot
+  - Github Advance Security
 gallery:
   - url: /assets/images/github-copilot-workshop1.jpg
     image_path: /assets/images/github-copilot-workshop1.jpg
@@ -43,7 +45,5 @@ Very happy and appreciate to able sharing my knowledge to everybody, the message
     <li>Dependencies review</li>
   </ul>
 </ul>
-
-<br>
 
 <b> AI is powerfull, let's utilize it into your work to inscrease quality and productivity. </b>
