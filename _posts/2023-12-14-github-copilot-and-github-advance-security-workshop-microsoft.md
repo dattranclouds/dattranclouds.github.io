@@ -23,21 +23,7 @@ gallery:
 
 Today (14-Dec 2023), My team (FSoft) and Microsoft organize a workshop about "Github Copilot and Github Advance Security".
 
-```yaml
-gallery:
-  - url: /assets/images/github-copilot-workshop1.jpg
-    image_path: /assets/images/github-copilot-workshop1.jpg
-    alt: "Github Copilot and Github Advance Security"
-    title: "Github Copilot and Github Advance Security"
-  - url: /assets/images/github-copilot-workshop2.jpg
-    image_path: /assets/images/github-copilot-workshop2.jpg
-    alt: "Github Copilot and Github Advance Security"
-    title: "Github Copilot and Github Advance Security"
-  - url: /assets/images/github-copilot-workshop3.jpg
-    image_path: /assets/images/github-copilot-workshop3.jpg
-    alt: "Github Copilot and Github Advance Security"
-    title: "Github Copilot and Github Advance Security"
-```
+{% include gallery id="gallery" caption="Some workshop's images" %}
 
 Very happy and appreciate to able sharing my knowledge to everybody, the message of workshop just summary as two statments:
 <ul>
@@ -60,4 +46,4 @@ Very happy and appreciate to able sharing my knowledge to everybody, the message
 
 <br>
 
-# AI is powerfull, let's utilize it into your work to inscrease quality and productivity.
+<b> AI is powerfull, let's utilize it into your work to inscrease quality and productivity. </b>
