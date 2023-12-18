@@ -1,5 +1,5 @@
 ---
-title: "Posts by Year"
+title: "Pages"
 permalink: /year-archive/
 layout: posts
 author_profile: true
