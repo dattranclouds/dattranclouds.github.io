@@ -23,7 +23,7 @@ gallery:
     title: "Github Copilot and Github Advance Security"
 ---
 
-Today (14-Dec 2023), My team (FSoft) and Microsoft organize a workshop about "Github Copilot and Github Advance Security".
+Today (14-Dec 2023), My team (FSoft) and Microsoft organize a workshop about "Github Copilot and Github Advance Security". There are 200 audience approximately from IT companies as VietNam.
 
 {% include gallery id="gallery" caption="Some workshop's images" %}
 
