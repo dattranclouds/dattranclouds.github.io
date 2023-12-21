@@ -5,11 +5,6 @@ layout: posts
 author_profile: true
 ---
 
-{% for page in site.pages %}
-  {% unless page.hidden %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
-
-Good page
-[Kenny Yip Coding](https://www.kennyyipcoding.com/)
+## Good pages
+Tutorial web page for game programming
+- [Kenny Yip Coding](https://www.kennyyipcoding.com/)
