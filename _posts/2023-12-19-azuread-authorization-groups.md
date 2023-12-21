@@ -7,7 +7,7 @@ tags:
   - msal-java
   - azure-active-directory
   - microsoft-identity-platform
-title: "Azure AD Authorization - Groups"
+title: "[Tutorial] Azure AD Authorization - Groups"
 categories: 
   - Tutorial
 urlFragment: ms-identity-java-servlet-webapp-groups

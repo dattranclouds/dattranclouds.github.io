@@ -7,7 +7,7 @@ tags:
   - msal-java
   - azure-active-directory
   - microsoft-identity-platform
-title: "Azure AD Authorization - Call Graph API"
+title: "[Tutorial] Azure AD Authorization - Call Graph API"
 categories: 
   - Tutorial
 urlFragment: "ms-identity-java-servlet-webapp-call-graph"
