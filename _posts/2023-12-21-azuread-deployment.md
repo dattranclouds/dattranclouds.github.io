@@ -8,7 +8,9 @@ tags:
   - azure-active-directory
   - microsoft-identity-platform
 
-title: "Deploy AzureAD Authentication / Authorization App to Azure"
+title: "Azure AD Authentication / Authorization - Deployment"
+categories: 
+  - Tutorial
 urlFragment: "ms-identity-java-servlet-webapp-authentication"
 ---
 

@@ -26,4 +26,4 @@ This tutorial to walk you through to authenticate users with Microsoft Entra ID 
 3. [Azure AD Authorization - Call Graph API](https://dattranclouds.github.io/)
 4. [Azure AD Authorization - Groups](https://dattranclouds.github.io/)
 5. [Azure AD Authorization - Roles](https://dattranclouds.github.io/)
-6. [Azure AD Authorization - Deployment](https://dattranclouds.github.io/)
+6. [Azure AD Authentication / Authorization - Deployment](https://dattranclouds.github.io/)

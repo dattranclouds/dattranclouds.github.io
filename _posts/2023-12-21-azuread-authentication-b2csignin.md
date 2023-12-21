@@ -1,8 +1,10 @@
 ---
-title: [Tutorial] Java Servlet Web App utilizing MSAL4J to authenticate users into Azure Active Directory B2C (Azure AD B2C)
+title: "[Tutorial] Azure AD Authentication - B2C Signin (Azure AD B2C)"
 page_type: sample
 languages:
   - java
+categories: 
+  - Tutorial
 tags:
   - azure-active-directory  
   - azure-active-directory-b2c

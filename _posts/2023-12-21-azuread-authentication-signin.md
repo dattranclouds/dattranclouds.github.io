@@ -1,11 +1,13 @@
 ---
-title: [Tutorial] Enable your Java Servlet web app to sign in users with the Microsoft identity platform
+title: "[Tutorial] Azure AD Authentication - Signin"
 tags:
   - azure
   - msal-java
   - azure-active-directory
   - microsoft-identity-platform
 page_type: sample
+categories: 
+  - Tutorial
 languages:
   - java
 urlFragment: ms-identity-java-servlet-webapp-authentication

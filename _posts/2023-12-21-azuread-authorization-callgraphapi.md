@@ -7,8 +7,9 @@ tags:
   - msal-java
   - azure-active-directory
   - microsoft-identity-platform
-
-title: "Enable your Java Servlet web app to sign in users and call Microsoft Graph with the Microsoft identity platform"
+title: "Azure AD Authorization - Call Graph API"
+categories: 
+  - Tutorial
 urlFragment: "ms-identity-java-servlet-webapp-call-graph"
 description: "This sample demonstrates a Java Servlet web app that signs in users and obtains an access token to call MS Graph with the Microsoft identity platform"
 ---
