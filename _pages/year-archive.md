@@ -5,8 +5,11 @@ layout: posts
 author_profile: true
 ---
 
-{% for post in site.pages %}
-  {% unless post.hidden %}
+{% for page in site.pages %}
+  {% unless page.hidden %}
     {% include archive-single.html %}
   {% endunless %}
 {% endfor %}
+
+Good page
+[Kenny Yip Coding](https://www.kennyyipcoding.com/)
