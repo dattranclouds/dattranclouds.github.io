@@ -12,7 +12,7 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 
 feature_kennyyip:
-  - image_path: /assets/images/KennyYip.jpg
+  - image_path: /assets/images/KennyYip.png
     alt: "placeholder image"
     title: "Kenny Yip"
     excerpt: 'Tutorial web page for **Game programming**'
@@ -22,7 +22,7 @@ feature_kennyyip:
     btn_class: "btn--info"
 
 feature_mmistakes:
-  - image_path: /assets/images/mmistakes.jpg
+  - image_path: /assets/images/mmistakes.png
     alt: "placeholder image"
     title: "Getting started MMistakes"
     excerpt: 'A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.'
