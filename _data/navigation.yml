@@ -3,6 +3,4 @@ main:
   - title: "About"
     url: /about/
   - title: "Pages"
-    url: /year-archive/
-  - title: "Getting Started MMistakes"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /good-pages/
