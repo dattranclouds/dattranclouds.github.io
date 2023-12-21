@@ -7,31 +7,32 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images3/unsplash-image-1.jpg
-  actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Some interested pages for coder"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 
-feature_row2:
-  - image_path: /assets/images3/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+feature_kennyyip:
+  - image_path: /assets/images/KennyYip.jpg
+    alt: "placeholder image"
+    title: "Kenny Yip"
+    excerpt: 'Tutorial web page for **Game programming**'
+    url: "https://www.kennyyipcoding.com/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+    btn_class: "btn--info"
+
+feature_mmistakes:
+  - image_path: /assets/images/mmistakes.jpg
+    alt: "placeholder image"
+    title: "Getting started MMistakes"
+    excerpt: 'A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.'
+    url: "https://mmistakes.github.io/minimal-mistakes/"
+    btn_label: "Read More"
+    btn_class: "btn--info"
+    btn_class: "btn--info"
+
 ---
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_kennyyip" type="left" %}
 
-## Good pages
-Getting started MMistakes
-- [MMistakes](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
-- [MMPage Demo](http)
-
-Tutorial web page for game programming
-- [Kenny Yip Coding](https://www.kennyyipcoding.com/)
+{% include feature_row id="feature_mmistakes" type="left" %}
