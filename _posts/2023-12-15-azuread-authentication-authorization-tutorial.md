@@ -8,6 +8,7 @@ tags:
   - Azure AD
   - Azure AD Authentication
   - Azure AD Authorization
+layout: splash
 ---
 
 ### Overview
