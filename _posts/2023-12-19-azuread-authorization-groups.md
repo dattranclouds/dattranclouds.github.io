@@ -14,33 +14,6 @@ urlFragment: ms-identity-java-servlet-webapp-groups
 description: "This sample demonstrates how to create a Java Servlet web app that signs in users and restricts access to pages based on group membership with the Microsoft identity platform"
 toc: true
 ---
-# Enable your Java Servlet web app to sign in users and restrict access to pages using security groups and groups claims with the Microsoft identity platform
-
-- [Overview](#overview)
-- [Scenario](#scenario)
-- [Contents](#contents)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-  - [Clone or download this repository](#clone-or-download-this-repository)
-- [Register the sample application with your Azure Active Directory tenant](#register-the-sample-application-with-your-azure-active-directory-tenant)
-  - [Choose the Azure AD tenant where you want to create your applications](#choose-the-azure-ad-tenant-where-you-want-to-create-your-applications)
-  - [Register the web app (java-servlet-webapp-groups)](#register-the-web-app-java-servlet-webapp-groups)
-  - [Configure Security Groups](#configure-security-groups)
-  - [Configure the web app (java-servlet-webapp-groups) to recognize Group IDs](#configure-the-web-app-java-servlet-webapp-groups-to-recognize-group-ids)
-- [Running the sample](#running-the-sample)
-- [Explore the sample](#explore-the-sample)
-- [Processing Groups claim in tokens, including handling **overage**](#processing-groups-claim-in-tokens-including-handling-overage)
-  - [The `groups` claim](#the-groups-claim)
-  - [The groups overage claim](#the-groups-overage-claim)
-- [We'd love your feedback!](#wed-love-your-feedback)
-- [About the code](#about-the-code)
-  - [Step-by-step walkthrough](#step-by-step-walkthrough)
-  - [Protecting the routes](#protecting-the-routes)
-  - [Scopes](#scopes)
-- [Deploy to Azure](#deploy-to-azure)
-- [More information](#more-information)
-- [Community Help and Support](#community-help-and-support)
-- [Contributing](#contributing)
 
 ## Overview
 

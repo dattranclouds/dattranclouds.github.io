@@ -13,24 +13,6 @@ urlFragment: ms-identity-b2c-java-servlet-webapp-authentication
 description: "This sample demonstrates a Java Servlet webapp that signs in users with Azure AD B2C"
 toc: true
 ---
-# Java Servlet Web App using MSAL4J to authenticate users into Azure Active Directory B2C
-
- 1. [Overview](#overview)
- 1. [Scenario](#scenario)
- 1. [Contents](#contents)
- 1. [Prerequisites](#prerequisites)
- 1. [Setup](#setup)
- 1. [Registration](#register-the-sample-application-with-your-azure-ad-b2c-tenant)
- 1. [Running the sample](#running-the-sample)
- 1. [Explore the sample](#explore-the-sample)
- 1. [About the code](#about-the-code)
- 1. [Deployment](#deployment)
- 1. [More information](#more-information)
- 1. [Community Help and Support](#community-help-and-support)
- 1. [Contributing](#contributing)
- 1. [Code of Conduct](#code-of-conduct)
-
-<!-- ![Build badge](https://identitydivision.visualstudio.com/_apis/public/build/definitions/a7934fdd-dcde-4492-a406-7fad6ac00e17/<BuildNumber>/badge) -->
 
 ## Overview
 

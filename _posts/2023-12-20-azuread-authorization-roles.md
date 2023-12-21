@@ -14,30 +14,6 @@ categories:
 description: "This sample demonstrates how to add authorization using app roles & roles claims to a Java servlet web app that signs-in users with the Microsoft identity platform"
 toc: true
 ---
-# Add authorization using app roles & roles claims to Java servlet Web app that signs-in users with the Microsoft identity platform
-
-- [Overview](#overview)
-- [Scenario](#scenario)
-- [Contents](#contents)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-  - [Clone or download this repository](#clone-or-download-this-repository)
-- [Register the sample application with your Azure Active Directory tenant](#register-the-sample-application-with-your-azure-active-directory-tenant)
-  - [Choose the Azure AD tenant where you want to create your applications](#choose-the-azure-ad-tenant-where-you-want-to-create-your-applications)
-  - [Register the web app (java-servlet-webapp-roles)](#register-the-web-app-java-servlet-webapp-roles)
-  - [Configure the web app (java-servlet-webapp-roles) to use your app registration](#configure-the-web-app-java-servlet-webapp-roles-to-use-your-app-registration)
-- [Running the sample](#running-the-sample)
-- [Explore the sample](#explore-the-sample)
-- [Processing Roles claim in the ID token](#processing-roles-claim-in-the-id-token)
-- [We'd love your feedback!](#wed-love-your-feedback)
-- [About the code](#about-the-code)
-  - [Step-by-step walkthrough](#step-by-step-walkthrough)
-  - [Protecting the routes](#protecting-the-routes)
-  - [Scopes](#scopes)
-- [Deploy to Azure](#deploy-to-azure)
-- [More information](#more-information)
-- [Community Help and Support](#community-help-and-support)
-- [Contributing](#contributing)
 
 ## Overview
 

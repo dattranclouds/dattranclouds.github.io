@@ -16,29 +16,6 @@ categories:
 description: "This sample demonstrates a Java Servlet web app that signs in users with the Microsoft identity platform"
 toc: true
 ---
-# Enable your Java Servlet web app to sign in users to your Azure Active Directory tenant with the Microsoft identity platform
-
-- [Overview](#overview)
-- [Scenario](#scenario)
-- [Contents](#contents)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-  - [Clone or download this repository](#clone-or-download-this-repository)
-- [Register the sample application with your Azure Active Directory tenant](#register-the-sample-application-with-your-azure-active-directory-tenant)
-  - [Register the web app (java-servlet-webapp-authentication)](#register-the-web-app-java-servlet-webapp-authentication)
-  - [Configure the web app (java-servlet-webapp-authentication) to use your app registration](#configure-the-web-app-java-servlet-webapp-authentication-to-use-your-app-registration)
-- [Running the sample](#running-the-sample)
-- [Explore the sample](#explore-the-sample)
-- [We'd love your feedback!](#wed-love-your-feedback)
-- [About the code](#about-the-code)
-  - [Step-by-step walkthrough](#step-by-step-walkthrough)
-  - [Protecting the routes](#protecting-the-routes)
-  - [Scopes](#scopes)
-- [Next Steps or Deploy to Azure](#next-steps-or-deploy-to-azure)
-- [Community Help and Support](#community-help-and-support)
-- [Contributing](#contributing)
-- [Code of Conduct](#code-of-conduct)
-- [More information](#more-information)
 
 ## Overview
 
