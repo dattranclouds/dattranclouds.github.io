@@ -21,9 +21,9 @@ This tutorial to walk you through to authenticate users with Microsoft Entra ID 
 </ul>
 
 ### Tutorials
-1. [Azure AD Authentication - Signin](https://dattranclouds.github.io/)
-2. [Azure AD Authentication - B2C Signin](https://dattranclouds.github.io/)
-3. [Azure AD Authorization - Call Graph API](https://dattranclouds.github.io/)
-4. [Azure AD Authorization - Groups](https://dattranclouds.github.io/)
-5. [Azure AD Authorization - Roles](https://dattranclouds.github.io/)
-6. [Azure AD Authentication / Authorization - Deployment](https://dattranclouds.github.io/)
+1. [Azure AD Authentication - Signin](https://dattranclouds.github.io/tutorial/azuread-authentication-signin/)
+2. [Azure AD Authentication - B2C Signin](https://dattranclouds.github.io/tutorial/azuread-authentication-b2csignin/)
+3. [Azure AD Authorization - Call Graph API](https://dattranclouds.github.io/tutorial/azuread-authorization-callgraphapi/)
+4. [Azure AD Authorization - Groups](https://dattranclouds.github.io/tutorial/azuread-authorization-groups/)
+5. [Azure AD Authorization - Roles](https://dattranclouds.github.io/tutorial/azuread-authorization-roles/)
+6. [Azure AD Authentication / Authorization - Deployment](https://dattranclouds.github.io/tutorial/azuread-deployment/)
