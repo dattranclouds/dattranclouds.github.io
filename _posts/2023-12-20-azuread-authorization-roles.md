@@ -12,6 +12,7 @@ title: "[Tutorial] Azure AD Authorization - Roles"
 categories: 
   - Tutorial
 description: "This sample demonstrates how to add authorization using app roles & roles claims to a Java servlet web app that signs-in users with the Microsoft identity platform"
+toc: true
 ---
 # Add authorization using app roles & roles claims to Java servlet Web app that signs-in users with the Microsoft identity platform
 

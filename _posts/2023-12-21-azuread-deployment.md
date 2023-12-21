@@ -12,6 +12,7 @@ title: "[Tutorial] Azure AD Authentication / Authorization - Deployment"
 categories: 
   - Tutorial
 urlFragment: "ms-identity-java-servlet-webapp-authentication"
+toc: true
 ---
 
 # Deploy your Java applications to Azure Cloud and use Azure App Service to manage your operations
