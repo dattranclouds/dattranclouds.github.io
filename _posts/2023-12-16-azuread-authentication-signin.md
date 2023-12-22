@@ -71,39 +71,11 @@ or download and extract the repository .zip file.
 > :warning: To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
 
 ## Register the sample application with your Azure Active Directory tenant
+There are two ways to register application, you can:
+- Register application on Portal
+- Register application via using PowerShell script
 
-There is one project in this sample. To register the app on the portal, you can:
-
-- either follow manual configuration steps below
-- or use PowerShell scripts that:
-  - **automatically** creates the Azure AD applications and related objects (passwords, permissions, dependencies) for you.
-  - modify the projects' configuration files.
-  - by default, the automation scripts set up an application that works with **accounts in your organizational directory only**.
-
-<details>
-  <summary>Expand this section if you want to use PowerShell automation.</summary>
-
-1. On Windows, run PowerShell and navigate to the root of the cloned directory
-1. In PowerShell run:
-
-   ```PowerShell
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process -Force
-   ```
-
-1. Run the script to create your Azure AD application and configure the code of the sample application accordingly.
-1. In PowerShell run:
-
-   ```PowerShell
-   cd .\AppCreationScripts\
-   .\Configure.ps1
-   ```
-
-   > Other ways of running the scripts are described in [App Creation Scripts](./AppCreationScripts/AppCreationScripts.md)
-   > The scripts also provide a guide to automated application registration, configuration and removal which can help in your CI/CD scenarios.
-
-</details>
-
-### Register the web app (java-servlet-webapp-authentication)
+### Portal: Register the web app (java-servlet-webapp-authentication)
 
 [Register a new web app](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) in the [Azure Portal](https://portal.azure.com).
 Following this guide, you must:
@@ -143,10 +115,8 @@ Open the project in your IDE to configure the code.
 3. Find the string `{enter-your-client-id-here}` and replace the existing value with the application ID (clientId) of the `java-servlet-webapp-authentication` application copied from the Azure portal.
 4. Find the string `{enter-your-client-secret-here}` and replace the existing value with the key you saved during the creation of the `java-servlet-webapp-authentication` app, in the Azure portal.
 
-</details>
-
 ## Running The Sample
-###Build .war File Using Maven
+### Build .war File Using Maven
 
 1. Navigate to the directory containing the pom.xml file for this sample (the same directory as this README), and run the following Maven command:
     ```
@@ -154,7 +124,7 @@ Open the project in your IDE to configure the code.
     ```
 1. This should generate a `.war` file which can be run on a variety of application servers
 
-###Running on Tomcat
+### Running on Tomcat
 (These instructions assume you have installed Tomcat)
 
 To run the sample on Tomcat:
@@ -162,29 +132,6 @@ To run the sample on Tomcat:
     1. By default, the sample expects to connect to `http://localhost:8080`, as defined in the `app.homePage` value in  [authentication.properties](src/main/resources/authentication.properties) file
 1. Copy the `.war` file to the `/webapps/` directory in your Tomcat installation, and start the Tomcat server
 1. Open your browser and navigate to `http://localhost:8080/msal4j-servlet-auth/` to view the sample
-
-###Running on WebLogic
-(These instructions assume you have installed WebLogic and set up some server domain)
-
-To deploy the sample to WebLogic via the web console:
-1. Start the WebLogic server with `DOMAIN_NAME\bin\startWebLogic.cmd`
-1. Navigate to the WebLogic web console in your browser, `http://localhost:7001/console`
-1. Go to `Domain Structure > Deployments`, click `Install`, click `upload your files`, and find the `.war` file you built
-1. Select `Install this deployment as an application`, click `Next`, click `Finish`, and then `Save`
-1. Go back to `Domain Structure > Deployments`, and `Start` your application
-1. Once the application starts, navigate to `http://localhost:7001/msal4j-servlet-auth/` to view the sample
-
-###Running on JBoss EAP
-(These instructions assume you have installed JBoss EAP)
-
-To deploy the sample to JBoss EAP via the web console:
-1. Start the JBoss server with `%JBOSS_HOME%\bin\standalone.bat`
-1. Navigate to the JBoss web console in your browser, `http://localhost:9990`
-1. Go to `Deployments`, click `Add`, and upload the `.war` you built (default settings should be fine)
-1. Select the `.war` file you uploaded, click `En/Disable`, and `Confirm` to start the application
-1. Once the application starts, navigate to `http://localhost:9990/msal4j-servlet-auth/` to view the sample
-
-![Experience](./ReadmeFiles/app.png)
 
 ## Explore the sample
 
@@ -198,10 +145,6 @@ To deploy the sample to JBoss EAP via the web console:
 - After signing out, click the link to `ID Token Details` to observe that the app displays a `401: unauthorized` error instead of the ID token claims when the user is not authorized.
 
 > :information_source: Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
-
-## We'd love your feedback!
-
-Were we successful in addressing your learning objective? Consider taking a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpURDQwVUxQWENUMlpLUlA0QzdJNVE3TUJRSyQlQCN0PWcu).
 
 ## About the code
 
@@ -296,28 +239,6 @@ app.protect.authenticated=/token_details
 - Based on the requested scopes, Azure AD presents a consent dialogue to the user upon signing in.
 - If the user consents to one or more scopes and obtains a token, the scopes-consented-to are encoded into the resulting `access_token`.
 - Note the scopes requested by the application by referring to [authentication.properties](./src/main/resources/authentication.properties). These three scopes are requested by MSAL and given by Azure Active Directory by default.
-
-## Next Steps or Deploy to Azure
-
-As next steps, we can now either [get an Access Token for the users we signed-in in this tutorial](https://github.com/Azure-Samples/ms-identity-java-servlet-webapp-call-graph), or we can proceed [to deploy this app to the **Azure App Service**](https://github.com/Azure-Samples/ms-identity-java-servlet-webapp-authentication/tree/main/4-Deployment/deploy-to-azure-app-service).
-
-## Community Help and Support
-
-Use [Stack Overflow](https://stackoverflow.com/questions/tagged/msal) to get support from the community.
-Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`azure-active-directory` `ms-identity` `java` `msal`].
-
-If you find a bug in the sample, please raise the issue on [GitHub Issues](../../../../issues).
-
-To provide a recommendation, visit the following [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com
-
-## Code of Conduct
-
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.
 
 ## More information
 
