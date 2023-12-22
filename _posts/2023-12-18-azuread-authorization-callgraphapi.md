@@ -19,7 +19,7 @@ toc: true
 
 This sample demonstrates a Java Servlet web app that signs in users and obtains an access token for calling [Microsoft Graph](https://docs.microsoft.com/graph/overview). It uses the [Microsoft Authentication Library (MSAL) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java).
 
-![Overview](./ReadmeFiles/topology.png)
+![Overview](/assets/images/topology_ad.png)
 
 ## Scenario
 
@@ -65,7 +65,7 @@ cd 2-Authorization-I/call-graph
 
 or download and extract the repository .zip file.
 
-> :warning: To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
+> **Warning:** To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
 
 ## Register the sample application with your Azure Active Directory tenant
 
@@ -170,8 +170,6 @@ Open the project in your IDE to configure the code.
 5. Ensure that the context path that the app is served on is `/msal4j-servlet-graph` (or change the `app.homePage` value in your [authentication.properties](src/main/resources/authentication.properties) file and in the AAD app registration). If you change the properties file, you'll needs to repeat step 3 above (maven clean and package).
 6. Open your browser and navigate to `http://localhost:8080/msal4j-servlet-graph/`
 
-![Experience](./ReadmeFiles/app.png)
-
 ## Explore the sample
 
 - Note the signed-in or signed-out status displayed at the center of the screen.
@@ -183,11 +181,7 @@ Open the project in your IDE to configure the code.
 - Click the **Call Graph** button to make a call to Microsoft Graph's [/me endpoint](https://docs.microsoft.com/graph/api/user-get?view=graph-rest-1.0&tabs=java#example-2-signed-in-user-request) and see a selection of user details obtained.
 - You can also use the button on the top right to sign out.
 
-> :information_source: Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
-
-## We'd love your feedback!
-
-Were we successful in addressing your learning objective? Consider taking a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpURDQwVUxQWENUMlpLUlA0QzdJNVE3TUJRSyQlQCN0PWcu).
+> **Note:** Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
 
 ## About the code
 
@@ -307,17 +301,3 @@ Follow [this guide](https://github.com/Azure-Samples/ms-identity-java-servlet-we
 - [Understanding Azure AD application consent experiences](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
 - [Understand user and admin consent](https://docs.microsoft.com/azure/active-directory/develop/howto-convert-app-to-be-multi-tenant#understand-user-and-admin-consent)
 - [MSAL code samples](https://docs.microsoft.com/azure/active-directory/develop/sample-v2-code)
-
-## Community Help and Support
-
-Use [Stack Overflow](https://stackoverflow.com/questions/tagged/msal) to get support from the community.
-Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`azure-active-directory` `ms-identity` `adal` `msal`].
-
-If you find a bug in the sample, please raise the issue on [GitHub Issues](../../../../issues).
-
-To provide a recommendation, visit the following [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com

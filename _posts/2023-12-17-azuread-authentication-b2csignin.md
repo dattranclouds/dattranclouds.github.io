@@ -23,7 +23,7 @@ This sample demonstrates a Java Servlet web application that authenticates users
 1. The client Java Servlet web application uses **MSAL4J** to sign-in users and obtains an [ID Token](https://docs.microsoft.com/azure/active-directory/develop/id-tokens) from **Azure AD B2C**:
 2. The **ID Token** proves that the user has successfully authenticated against a **Azure AD B2C** tenant.
 
-![Overview](./ReadmeFiles/topology.png)
+![Overview](/assets/images/topology_ad_b2c.png)
 
 ## Contents
 
@@ -60,11 +60,12 @@ cd 1-Authentication/sign-in-b2c
 
 or download and extract the repository .zip file.
 
-> :warning: To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
+> **Warning:** To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
 
 ### Register the sample application with your Azure AD B2C tenant
 
-:warning: This sample comes with a pre-registered application for testing purposes. If you would like to use your own **Azure AD B2C** tenant and application, follow the steps below to register and configure the application in the **Azure Portal**. Otherwise, continue with the steps for [Running the sample](#running-the-sample).
+> **Warning:** This sample comes with a pre-registered application for testing purposes. If you would like to use your own **Azure AD B2C** tenant and application, follow the steps below to register and configure the application in the **Azure Portal**. Otherwise, continue with the steps for [Running the sample](#running-the-sample).
+
 <details>
   <summary>Expand this section to see manual steps for configuring your own tenant:</summary>
 
@@ -137,8 +138,6 @@ Open the project in your IDE (like **Visual Studio Code**) to configure the code
 5. Ensure that the context path that the app is served on is `http://localhost:8080/ms-identity-b2c-java-servlet-webapp-authentication` (or change the addresses listed in the [authentication.properties](src/main/resources/authentication.properties) file and in the AAD app registration).
 6. Open your browser and navigate to `http://localhost:8080/ms-identity-b2c-java-servlet-webapp-authentication/`
 
-![Experience](./ReadmeFiles/app.png)
-
 ## Explore the sample
 
 - Note the signed-in or signed-out status displayed at the center of the screen.
@@ -150,7 +149,7 @@ Open the project in your IDE (like **Visual Studio Code**) to configure the code
 - You can also use the button on the top right to sign out.
 - After signing out, click this link to the [token details page](http://localhost:8080/ms-identity-b2c-java-servlet-webapp-authentication/auth_token_details) to observe how the app displays a `401: unauthorized` error instead of the ID token claims.
 
-> :information_source: Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../issues) page.
+> **Note:** Did the sample not work for you as expected? Then please reach out to us using the [GitHub Issues](../issues) page.
 
 ## About the code
 
@@ -246,23 +245,3 @@ In this sample, these values are read from the [authentication.properties](src/m
 - [Microsoft Authentication Library \(MSAL\) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java)
 
 For more information about how OAuth 2.0 protocols work in this scenario and other scenarios, see [Authentication Scenarios for Azure AD](https://docs.microsoft.com/azure/active-directory/develop/authentication-flows-app-scenarios).
-
-## Community Help and Support
-
-Use [Stack Overflow](http://stackoverflow.com/questions/tagged/msal) to get support from the community.
-Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`azure-active-directory` `azure-ad-b2c` `ms-identity` `adal` `msal`].
-
-If you find a bug in the sample, please raise the issue on [GitHub Issues](../../../../issues).
-
-To provide a recommendation, visit the following [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
-
-## Contributing
-
-If you'd like to contribute to this sample, see [CONTRIBUTING.MD](/CONTRIBUTING.md).
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Code of Conduct
-
-This project has adopted the Microsoft Open Source Code of Conduct. For more information see the Code of Conduct FAQ or contact opencode@microsoft.com with any additional questions or comments.

@@ -42,7 +42,7 @@ This sample application defines the following two *Application Roles*:
 
 These application roles are defined in the [Azure portal](https://portal.azure.com) in the application's registration manifest.  When a user signs into the application, Azure AD emits a `roles` claim for each role that the user has been granted individually to the user in the from of role membership.  Assignment of users and groups to roles can be done through the portal's UI, or programmatically using the [Microsoft Graph](https://graph.microsoft.com) and [Azure AD PowerShell](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).  In this sample, application role management is done through the Azure portal or using PowerShell.
 
-⚠️NOTE: Role claims will not be present for guest users in a tenant if the `https://login.microsoftonline.com/common/` endpoint is used as the authority to sign in users. You need to sign-in a user to a tenanted endpoint like 'https://login.microsoftonline.com/tenantid'
+>⚠️NOTE: Role claims will not be present for guest users in a tenant if the `https://login.microsoftonline.com/common/` endpoint is used as the authority to sign in users. You need to sign-in a user to a tenanted endpoint like 'https://login.microsoftonline.com/tenantid'
 
 ## Contents
 
@@ -83,7 +83,7 @@ cd 3-Authorization-II/roles
 
 or download and extract the repository .zip file.
 
-> :warning: To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
+> **Warning:** To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
 
 ## Register the sample application with your Azure Active Directory tenant
 
@@ -194,8 +194,6 @@ Open the project in your IDE to configure the code.
 5. Ensure that the context path that the app is served on is `/msal4j-servlet-roles` (or change the `app.homePage` value in your [authentication.properties](src/main/resources/authentication.properties) file and in the AAD app registration). If you change the properties file, you'll needs to repeat step 3 above (maven clean and package).
 6. Open your browser and navigate to `http://localhost:8080/msal4j-servlet-roles/`
 
-![Experience](./ReadmeFiles/app.png)
-
 ## Explore the sample
 
 - Note the signed-in or signed-out status displayed at the center of the screen.
@@ -208,7 +206,7 @@ Open the project in your IDE to configure the code.
 - Click the **Regular Users** button to view the `/regular_user` page. Only users with app role **RegularUser** or **PrivilegedAdmin** will be able to view this page. Otherwise an authorization failure message will be displayed.
 - You can also use the button on the top right to sign out.
 
-> :information_source: Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
+> **Information:** Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
 
 ## Processing Roles claim in the ID token
 
@@ -223,10 +221,6 @@ The name of the the roles that the signed in user is assigned to is returned in 
   ...
 }
 ```
-
-## We'd love your feedback!
-
-Were we successful in addressing your learning objective? Consider taking a moment to [share your experience with us](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR73pcsbpbxNJuZCMKN0lURpURDQwVUxQWENUMlpLUlA0QzdJNVE3TUJRSyQlQCN0PWcu).
 
 ## About the code
 
@@ -350,17 +344,3 @@ Follow [this guide](https://github.com/Azure-Samples/ms-identity-java-servlet-we
 - [MSAL code samples](https://docs.microsoft.com/azure/active-directory/develop/sample-v2-code)
 - [How to: Add app roles to your application and receive them in the token](https://docs.microsoft.com/azure/active-directory/develop/howto-add-app-roles-in-azure-ad-apps)
 - [Manage user assignment for an app in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/assign-user-or-group-access-portal#assign-a-user-to-an-app---portal)
-
-## Community Help and Support
-
-Use [Stack Overflow](https://stackoverflow.com/questions/tagged/msal) to get support from the community.
-Ask your questions on Stack Overflow first and browse existing issues to see if someone has asked your question before.
-Make sure that your questions or comments are tagged with [`azure-active-directory` `ms-identity` `adal` `msal`].
-
-If you find a bug in the sample, please raise the issue on [GitHub Issues](../../../../issues).
-
-To provide a recommendation, visit the following [User Voice page](https://feedback.azure.com/forums/169401-azure-active-directory).
-
-## Contributing
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com

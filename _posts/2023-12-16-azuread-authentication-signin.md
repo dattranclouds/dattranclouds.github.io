@@ -21,7 +21,7 @@ toc: true
 
 This sample demonstrates a Java Servlet web app that signs in users to your Azure Active Directory tenant using the [Microsoft Authentication Library (MSAL) for Java](https://github.com/AzureAD/microsoft-authentication-library-for-java).
 
-![Overview](./ReadmeFiles/topology.png)
+![Overview](/assets/images/topology_ad.png)
 
 ## Scenario
 
@@ -68,7 +68,7 @@ cd 1-Authentication/sign-in
 
 or download and extract the repository .zip file.
 
-> :warning: To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
+> **Warning:** To avoid file path length limitations on Windows, clone the repository into a directory near the root of your hard drive.
 
 ## Register the sample application with your Azure Active Directory tenant
 There are two ways to register application, you can:
@@ -144,7 +144,7 @@ To run the sample on Tomcat:
 - You can also use the button on the top right to sign out.
 - After signing out, click the link to `ID Token Details` to observe that the app displays a `401: unauthorized` error instead of the ID token claims when the user is not authorized.
 
-> :information_source: Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
+> **Note:** Did the sample not work for you as expected? Did you encounter issues trying this sample? Then please reach out to us using the [GitHub Issues](../../../../issues) page.
 
 ## About the code
 
